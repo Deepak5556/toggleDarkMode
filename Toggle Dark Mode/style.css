@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+   border-radius: 5px;
+}
+.form-group {
+            margin-bottom: 20px;
+        }
+
+        .form-group label {
+            display: block;
+            font-weight: bold;
+        }
+
+        .form-group input[type="text"],
+        .form-group input[type="password"] {
+            width: 65%;
+            padding: 10px;
+            border: 2.1px solid #5a4949;
+            border-radius: 6.5px;
+          
+        }
+
+        .form-group input[type="submit"] {
+            background-color: #007BFF;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #555;
+  transition: 0.5s;
+   box-shadow: 1px 1px 100px #151414;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+ .login-container{
+            max-width: 400px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #8fa2ff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 10px;
+            text-align: center;
+            border: 2px;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+        }
+  .form-group{
+    border: 10px;
+    border-color: black;
+  }
+
+
+/* Dark mode styles */
+.dark-mode {
+    background-color: #111;
+    color: #fff;
+}
+
+.dark-mode .login-container {
+    background-color: #333;
+}
